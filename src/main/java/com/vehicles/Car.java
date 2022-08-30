@@ -22,6 +22,13 @@ public class Car extends VehicleManufacturer implements Vehicle {
             return 170;
         } else return 0;
     }
+
+    public Car() {
+    }
+
+    public Car(String vehicleName, String vehicleModelName, String vehicleType) {
+        super(vehicleName, vehicleModelName, vehicleType);
+    }
 }
 
 
