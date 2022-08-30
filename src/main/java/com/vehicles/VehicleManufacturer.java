@@ -16,6 +16,14 @@ abstract class VehicleManufacturer {
     public VehicleManufacturer() {
     }
 
+    // declare parameterised constructor
+    public VehicleManufacturer(String vehicleName, String vehicleModelName, String vehicleType) {
+        this.vehicleName = vehicleName;
+        this.vehicleModelName = vehicleModelName;
+        this.vehicleType = vehicleType;
+    }
+
+
     // declare getters and setters for the instance variables
 
     public String getVehicleName() {
