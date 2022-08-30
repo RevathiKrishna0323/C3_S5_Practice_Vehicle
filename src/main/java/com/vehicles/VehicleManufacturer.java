@@ -51,7 +51,7 @@ abstract class VehicleManufacturer {
     }
     // define abstract method getManufacturerInformation() having string as return
     public abstract String getManufacturerInformation();
-
-
+    //declare vehicle as an interface inside the package com.vehicles having one abstract method
+    public abstract int maxSpeed(String vehicleType);
 
 }
