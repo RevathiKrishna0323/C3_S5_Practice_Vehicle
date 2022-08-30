@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="created VehicleManufacturerImpl.java">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="called the methods and initialised the objects">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661865259824</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="called the methods and initialised the objects">
+      <created>1661867130523</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1661867130523</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,21 +270,7 @@
     <MESSAGE value="created parameterised constructor" />
     <MESSAGE value="created toString() method" />
     <MESSAGE value="created VehicleManufacturerImpl.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="created VehicleManufacturerImpl.java" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturerImpl.java</url>
-          <line>9</line>
-          <properties class="com.vehicles.VehicleManufacturerImpl" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="called the methods and initialised the objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="called the methods and initialised the objects" />
   </component>
 </project>
