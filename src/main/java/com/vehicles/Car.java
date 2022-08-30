@@ -29,6 +29,12 @@ public class Car extends VehicleManufacturer implements Vehicle {
     public Car(String vehicleName, String vehicleModelName, String vehicleType) {
         super(vehicleName, vehicleModelName, vehicleType);
     }
+
+    @Override
+    public String toString() {
+        return "Car{} " + super.toString();
+    }
 }
+
 
 
