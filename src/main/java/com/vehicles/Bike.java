@@ -23,10 +23,10 @@ public class Bike extends VehicleManufacturer implements Vehicle {
 
     @Override
     public int maxSpeed(String vehicleType) {
-        if (getVehicleType().equals("sportsBike")) {
+        if (vehicleType == "sportsBik") {
             return 250;
-        } else if (getVehicleType().equals("cruiser")) {
-
+        }
+        if (vehicleType == "cruiser") {
             return 170;
         } else return 0;
     }

@@ -16,16 +16,16 @@ public class Car extends VehicleManufacturer implements Vehicle {
 
     @Override
     public String getManufacturerInformation() {
-        return null;
+        return toString();
     }
 
     @Override
     // This method is used to calculate the maximum speed of the vehicle.
     public int maxSpeed(String vehicleType) {
-        if (vehicleType == "sportsBike") {
+        if (vehicleType == "sportsCar") {
             return 300;
         }
-        if (vehicleType == "crusier") {
+        if (vehicleType == "sedan") {
             return 170;
         } else return 0;
     }

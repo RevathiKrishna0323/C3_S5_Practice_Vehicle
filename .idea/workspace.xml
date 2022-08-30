@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="added logic to the maxSpeed method">
+    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="created VehicleManufacturerImpl.java">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="VehicleManufacturerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vehicles.VehicleManufacturerImpl" />
+      <module name="C3_S5_Practice_Vehicle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vehicles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VehicleManufacturerImpl" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -182,7 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661864942972</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="created parameterised constructor">
+      <created>1661865017983</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865017983</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created toString() method">
+      <created>1661865112169</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865112169</updated>
+    </task>
+    <task id="LOCAL-00022" summary="created VehicleManufacturerImpl.java">
+      <created>1661865259824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661865259824</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +264,24 @@
     <MESSAGE value="changes made in source code" />
     <MESSAGE value="created Car class" />
     <MESSAGE value="added logic to the maxSpeed method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added logic to the maxSpeed method" />
+    <MESSAGE value="created parameterised constructor" />
+    <MESSAGE value="created toString() method" />
+    <MESSAGE value="created VehicleManufacturerImpl.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="created VehicleManufacturerImpl.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturerImpl.java</url>
+          <line>9</line>
+          <properties class="com.vehicles.VehicleManufacturerImpl" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

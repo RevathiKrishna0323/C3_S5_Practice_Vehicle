@@ -50,8 +50,17 @@ abstract class VehicleManufacturer {
         this.vehicleType = vehicleType;
     }
     // define abstract method getManufacturerInformation() having string as return
-    public abstract String getManufacturerInformation();
-    //declare vehicle as an interface inside the package com.vehicles having one abstract method
-    public abstract int maxSpeed(String vehicleType);
+    public String getManufacturerInformation(){
 
+        return toString();
+    }
+
+    @Override
+    public String toString() {
+        return "VehicleManufacturer{" +
+                "vehicleName='" + vehicleName + '\'' +
+                ", vehicleModelName='" + vehicleModelName + '\'' +
+                ", vehicleType='" + vehicleType + '\'' +
+                '}';
+    }
 }
