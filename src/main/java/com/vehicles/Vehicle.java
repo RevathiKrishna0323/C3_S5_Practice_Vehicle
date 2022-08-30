@@ -6,5 +6,8 @@
 
 package com.vehicles;
 
-public class Vehicle {
+public interface Vehicle {
+    //declare vehicle as an interface inside the package com.vehicles havong one abstract method
+    int maxSpeed(String vehicleType);
+
 }
