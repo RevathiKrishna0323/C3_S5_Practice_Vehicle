@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="refactored the package name to com.vehicles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="VehicleManufacturer.java anf made it abstract">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/VehicleManufacturer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661846036491</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="VehicleManufacturer.java">
+      <created>1661848572796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661848572796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="VehicleManufacturer.java anf made it abstract">
+      <created>1661848588529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661848588529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +119,8 @@
     <MESSAGE value="changed the source, target JDK versions from 18 to 11 loaded the maven changes" />
     <MESSAGE value="changed the source, target JDK versions from 18 to 11 and loaded the maven changes" />
     <MESSAGE value="refactored the package name to com.vehicles" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored the package name to com.vehicles" />
+    <MESSAGE value="VehicleManufacturer.java" />
+    <MESSAGE value="VehicleManufacturer.java anf made it abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="VehicleManufacturer.java anf made it abstract" />
   </component>
 </project>
