@@ -49,6 +49,9 @@ abstract class VehicleManufacturer {
     public void setVehicleType(String vehicleType) {
         this.vehicleType = vehicleType;
     }
+    // define abstract method getManufacturerInformation() having string as return
+    public abstract String getManufacturerInformation();
+
 
 
 }
