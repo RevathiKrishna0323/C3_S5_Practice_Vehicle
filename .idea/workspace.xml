@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="created the Bike.java inside the package com.vehicles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Bike.java" afterDir="false" />
+    <list default="true" id="bc8f3d92-35d1-44b9-868a-6a74c6270a41" name="Changes" comment="created Car class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vehicles/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661860877016</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changes made in source code">
+      <created>1661864317674</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1661864317674</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created Car class">
+      <created>1661864363870</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1661864363870</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +206,8 @@
     <MESSAGE value="created Vehicle.java" />
     <MESSAGE value="declared vehicle as an interface inside the package com.vehicles havong one abstract method" />
     <MESSAGE value="created the Bike.java inside the package com.vehicles" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the Bike.java inside the package com.vehicles" />
+    <MESSAGE value="changes made in source code" />
+    <MESSAGE value="created Car class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created Car class" />
   </component>
 </project>

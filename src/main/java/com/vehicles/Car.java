@@ -6,5 +6,22 @@
 
 package com.vehicles;
 
-public class Car {
+public class Car extends VehicleManufacturer implements Vehicle {
+    @Override
+    public String getManufacturerInformation() {
+        return null;
+    }
+
+    @Override
+    // This method is used to calculate the maximum speed of the vehicle.
+    public int maxSpeed(String vehicleType) {
+        if (vehicleType == "sportsBike") {
+            return 300;
+        }
+        if (vehicleType == "crusier") {
+            return 170;
+        } else return 0;
+    }
 }
+
+
